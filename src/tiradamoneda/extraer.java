@@ -13,6 +13,10 @@ import java.util.Scanner;
  */
 public class extraer {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         //las variables a y b servirán para guardar el resultado de la tirada de dos monedas
         int tiradasA;
