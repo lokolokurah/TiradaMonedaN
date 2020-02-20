@@ -73,10 +73,17 @@ public class TiradaMonedaCX {
             }
         }
 
-        Imprimir(contadorCaras, contadorCruces, maximoCarasDoblesConsecutivas, maximoCrucesDoblesConsecutivas);
+        imprime(contadorCaras, contadorCruces, maximoCarasDoblesConsecutivas, maximoCrucesDoblesConsecutivas);
     }
 
-    protected static void Imprimir(int contadorCaras, int contadorCruces, int maximoCarasDoblesConsecutivas, int maximoCrucesDoblesConsecutivas) {
+    /**
+     *
+     * @param contadorCaras the value of contadorCaras
+     * @param contadorCruces the value of contadorCruces
+     * @param maximoCarasDoblesConsecutivas the value of maximoCarasDoblesConsecutivas
+     * @param maximoCrucesDoblesConsecutivas the value of maximoCrucesDoblesConsecutivas
+     */
+    protected static void imprime(int contadorCaras, int contadorCruces, int maximoCarasDoblesConsecutivas, int maximoCrucesDoblesConsecutivas) {
         System.out.println("Caras: " + contadorCaras + ", Cruces: " + contadorCruces);
         System.out.println("Maximo de caras dobles consecutivas: " + maximoCarasDoblesConsecutivas);
         System.out.println("Maximo de cruces dobles consecutivas: " + maximoCrucesDoblesConsecutivas);
